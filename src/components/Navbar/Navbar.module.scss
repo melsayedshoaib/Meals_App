@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  &:hover {
+    color: #999;
+  }
+}
+nav {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
